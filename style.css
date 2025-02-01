@@ -1467,8 +1467,8 @@ textarea.form-input {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 120px; /* Adjust size as needed */
-    height: 130px; /* Adjust size as needed */
+    width: 100px; /* Adjust size as needed */
+    height: 110px; /* Adjust size as needed */
     border-radius: 50%; /* Makes the image circular */
     overflow: hidden; /* Ensures the image stays within the circle */
     margin-bottom: 20px; /* Adds space between the photo and the name */
