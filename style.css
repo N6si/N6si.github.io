@@ -1051,6 +1051,7 @@ textarea.form-input {
             .form-btn:disabled:hover::before { background: var(--bg-gradient-jet); }
 
 
+
 /*MEDIA QUERIES*/
 
 @media (min-width: 450px) {
@@ -1475,4 +1476,11 @@ textarea.form-input {
     background: var(--bg-gradient-onyx); /* Optional: Adds a gradient background */
     box-shadow: var(--shadow1); /* Optional: Adds a shadow */
 }
+
+.avatar-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ensures the image covers the circle without distortion */
+}
+
 
